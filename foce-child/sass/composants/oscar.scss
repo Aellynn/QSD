@@ -1,0 +1,28 @@
+	/** SECTION  OSCARS 2022 **/
+
+	/* Masquer les fleurs du footer */
+    .site-footer::before,
+    .site-footer::after {
+        display: none;
+    } 
+
+    /*DEPLACEMENT DES IMAGES DANS LA NOUVELLE SECTION OSCAR
+
+/* Déplacement de l'image orchid vers la droite */
+.orchid {
+    position: relative;
+    top: -140px; 
+    left: 1150px; 
+}
+
+/* Déplacement de l'image sunflower vers la gauche */
+.sunflower {
+    position: relative;
+    bottom:30px;
+}
+
+.orange-image {
+    position: relative;
+    bottom: 150px; 
+    left:150px;
+  }

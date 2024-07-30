@@ -1,0 +1,18 @@
+@import "./composants/animation.scss";
+@import "./composants/titres.scss";
+@import "./composants/video.scss";
+@import "./composants/oscar.scss";
+@import "./composants/nuage.scss";
+@import "./composants/swiper.scss";
+@import "./composants/burger.scss";
+
+//Définition des variables CSS personnalisées
+
+:root {
+    --cloudspositionX:0;
+    --rotate:15s; /*la durée souhaitée en secondes*/
+}
+
+.story__article p {
+    animation: fadeInText 1.5s 0.5s forwards
+}
